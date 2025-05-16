@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+    color: white;
+    overflow: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 11vh;
+    background: linear-gradient(to bottom, #ff0739a2 75%, black 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.outputList{
+    width: 80vw;
+    height: 47vh;
+
+    margin-top: 7vh;
+    background-color: #ff073a;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.66);
+}
+li{
+    list-style-type: none;
+}
+
+.textInputAndButton{
+    position: absolute;
+    top: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.listAddButton{
+    width: 4rem;
+    height: 4rem;
+    background-color: #ff073a;
+    border-radius: 10px;
+}
+.listTextInput{
+    height: 100;
+    border-radius: 10px;
+    background-color: #ff073a;
+    color: black;
+    font-size: 20px;
+}
+button img {
+    width: 80%;
+    height: 70%;
+    max-width: 100%;
+    max-height: 100%;
+}
